@@ -11,23 +11,21 @@ body {
 
 h1 {
 	font-size: 2.5rem;
-	margin-bottom: 15px;
 	text-align: center;
+	padding: 5px;
 }
 
 h2 {
   	border: 2px solid black;
  	background-color: red;
  	width: 30%;
-  	margin-right: -2px;
-  	margin-top: -2px;
-  	margin-left: auto;
+ 	margin: -2px -2px 0 auto;
   	text-align: center;
 }
 
 p {
 	font-size: 1em;
-	margin-left: 10px;
+	padding: 2px 20px;
 }
 
 .chiken {
@@ -67,15 +65,15 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-1, .col-md-2 {
 		float: left;
-		width: 49.5%;
+		width: 49%;
 	}
 	.col-md-2 {
-		margin-left: 1%;
+		margin-left: 2%;
 	}
 	.col-md-3 {
 		float: left;
 		width: 100%;
-		margin-top: 1%;
+		margin-top: 2%;
 	}
 }
 
@@ -85,6 +83,6 @@ p {
 		float: left;
 	}
 	.col-sm + .col-sm {
-		margin-top: 5%;
+		margin-top: 4%;
 	}	
 }
